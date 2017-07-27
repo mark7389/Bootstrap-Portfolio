@@ -53,8 +53,15 @@ h3{
 	position:relative;
 	margin:0px;
 	top:37px;
-	color:#dddddd;
 	
+}
+.goto a{
+	color:#dddddd;
+}
+.goto > li > a:hover {
+
+	background: #1caec6;
+	opacity:0.6;
 }
 
 .social{
@@ -84,6 +91,56 @@ h3{
 	width:100%;
 	max-height: 1024px;
 	background-image: url("images/concrete_seamless.png");
+}
+.f_dm input{
+
+	width:80%;
+}
+.f_dm textarea{
+
+	width:80%;
+	height: 200px;
+}
+.s_msg{
+
+	background: #1caec6;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+.p_img{
+	
+	float:left;
+	width:180px;
+	height: 150px;
+	margin: 25px;
+}
+.work{
+	background-image: url("images/business.jpg");
+}
+.recipes{
+	background-image: url("images/food.jpg");
+}
+.ideas{
+	background-image: url("images/tech.jpg");
+}
+.aspirations{
+	background-image: url("images/soccer.jpg");
+}
+.philosophy{
+	background-image: url("images/abstract.jpg");
+}
+
+.p_img button{
+	
+	position: relative;
+	width:100%;
+	height: 40px;
+	background: #1caec6;
+	color: #ffffff;
+	vertical-align: middle;
+	line-height: 40px;
+	top:100px;
+
 }
 
 .Bottom{
