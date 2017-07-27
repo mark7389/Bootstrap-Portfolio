@@ -138,8 +138,9 @@ h3{
 	background: #1caec6;
 	color: #ffffff;
 	vertical-align: middle;
-	line-height: 40px;
+	
 	top:100px;
+	font-size: 18px;
 
 }
 
@@ -153,4 +154,40 @@ h3{
 	text-align: center;
 	vertical-align: middle;
 	line-height: 100px;
+}
+@media screen and (max-width:980px) {
+	
+}
+@media screen and (max-width: 768px) {
+	
+	.logo{
+		width: 100%;
+	}
+	.goto{
+		width:100%;
+		float:right;
+		top:0px;
+	}
+	.connect{
+		width:100%;
+	}
+	.main{
+		width:100%;
+	}
+}
+@media screen and (max-width: 640px) {
+
+	.logo{
+		width:100%;
+	}
+	.goto{
+		float:left;
+	}
+	.connect{
+		width:100%;
+	}
+	.main{
+		width:100%;
+	}
+	
 }
